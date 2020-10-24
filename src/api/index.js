@@ -4,7 +4,7 @@ const vue = new Vue()
 
 // axios 配置
 axios.defaults.timeout = 10000;
-axios.defaults.baseURL = 'https://extra8hours-chenyfanblog.avosapps.us:443';
+axios.defaults.baseURL = 'https://163music-api.cyfan.top:443';
 
 //返回状态判断
 axios.interceptors.response.use((res) => {
